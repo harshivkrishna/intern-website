@@ -281,9 +281,9 @@ export default function Home() {
               <div className="narratives-left">
                 <Image src={Narrative} className='narrativesimage'></Image>
                 <div className="left-text-container">
-                  <p>"This shop had everything I was looking for plus so much more."</p>
+                  <p>&quot;This shop had everything I was looking for plus so much more.</p>
                   <br />
-                  <p>From the minute I walked in, everyone made me feel so incredible welcome. I will definitely be back."</p>
+                  <p>From the minute I walked in, everyone made me feel so incredible welcome. I will definitely be back.&quot;</p>
                   <br />
                   <p>-Nadia L.</p>
                 </div>
