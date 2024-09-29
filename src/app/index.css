@@ -54,6 +54,21 @@ li,.HeadingMain{
   margin-left: 30px;
 }
 
+@media (max-width:1200px){
+  .header-section{
+    flex-direction: column;
+  }
+  .header-section-right .headerImg1{
+    display: none;
+  }
+  .header-section-right .headerImg2{
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
 /* Home section css */
 
 .header-section{
@@ -155,12 +170,14 @@ input[type="text"] {
 .what-we-do{
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 .what-we-do-image{
   pointer-events: none;
   height: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 
 /* Types section css */
@@ -354,12 +371,14 @@ input[type="text"] {
 
 .jointImg{
   object-fit: cover;
+  overflow: hidden;
 }
 
 .impact-narratives{
-  height: 100vh;
+  height: fit-content;
   width: 100%;
   background-color: #414E57;
+  padding: 30px;
 }
 
 .impact-container{
@@ -367,6 +386,14 @@ input[type="text"] {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+}
+
+.impact-heading{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
 }
 
 .narratives-container{
@@ -378,16 +405,21 @@ input[type="text"] {
 }
 
 .narrativesimage{
-  height: 500px;
-  width: 700px;
-  position: absolute;
+  /* height: 500px;
+  width: 700px; */
   z-index: 0;
+  position: relative;
+
 }
 
 .left-text-container{
   position: relative;
+  top: -300px;
+  left: 250px;
   z-index: 1;
-  background-color: blue;
+  background-color: #1982C4;
+  padding: 20px;
+  color: white;
 }
 
 .right-text-container{
