@@ -170,14 +170,12 @@ input[type="text"] {
 .what-we-do{
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
 }
 
 .what-we-do-image{
   pointer-events: none;
   height: 100vh;
   width: 100%;
-  overflow: hidden;
 }
 
 /* Types section css */
