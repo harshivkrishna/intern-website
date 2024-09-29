@@ -86,9 +86,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="what-we-do">
-        <Image  src={Whatwedo} className='what-we-do-image'></Image>
-      </section>
 
       <section className="types">
 

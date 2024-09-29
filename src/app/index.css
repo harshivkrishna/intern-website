@@ -58,14 +58,6 @@ li,.HeadingMain{
   .header-section{
     flex-direction: column;
   }
-  .header-section-right .headerImg1{
-    display: none;
-  }
-  .header-section-right .headerImg2{
-    position: static;
-    display: flex;
-    justify-content: center;
-  }
 
 }
 
