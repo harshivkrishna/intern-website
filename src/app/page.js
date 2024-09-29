@@ -162,7 +162,7 @@ export default function Home() {
             </div>
             <div className="list-container">
               <ul>
-                <li>Girl or Boy Child's School Education</li>
+                <li>Girl or Boy Childs School Education</li>
                 
               </ul>
               <hr />
