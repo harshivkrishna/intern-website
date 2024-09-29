@@ -163,7 +163,6 @@ export default function Home() {
             <div className="list-container">
               <ul>
                 <li>Girl or Boy Childs School Education</li>
-                
               </ul>
               <hr />
               <ul>
